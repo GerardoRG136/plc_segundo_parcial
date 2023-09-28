@@ -21,13 +21,14 @@ respuesta = input("Camarón que se duerme: ")
 print("A. se lo lleva la corriente")
 print("B. jamas se endereza")
 print ("Escribe tu respuesta: ")
-if respuesta == input("A"):
+if respuesta == ("A"):
   print("Correcto!")
-elif respuesta == input("B"):
+elif respuesta == ("B"):
   print("No es correcto")
 
-x = int(input("dame un numero"))
+x = int(input("dame un numero: "))
 if x >= 0:
   print("x es positivo")
 else:
   print("x no es positivo")
+
